@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(134, 131, 197) 0%, rgba(179, 220, 203, 0.672) 24%);
+    filter:blur(0.2px);
+} 
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+   text-align: center;
+   color: brown;
+}
+
+span{
+    color: #000;
+}
+#mainImg{
+    width: 15%;
+    border-radius: 25px;
+}
+
+p{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(176, 173, 238) 0%, rgba(129, 208, 175, 0.672) 24%);
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.box{
+    border: 0.25px solid black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(149, 147, 201) 0%, rgba(148, 218, 189, 0.672) 24%);
+    width: 200px;
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boxLink{
+    text-decoration: none;
+}
+
+.oldImg{
+    height: 300px;
+    width: 200px;
+    margin-right: 1rem;
+    margin-left: 10px;
+    border-radius: 15px;
+  
+}
+
+#description{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(176, 174, 213) 0%, rgba(131, 220, 183, 0.672) 24%);
+    border-radius: 15px;
+}

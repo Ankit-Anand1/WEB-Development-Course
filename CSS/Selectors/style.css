@@ -1,0 +1,124 @@
+input{
+    background-color: rgb(243, 249, 255);
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+   
+}
+
+/* universal selector */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 253, 251);
+}
+
+
+/* element selector */
+
+h1{
+    color: brown;
+}
+
+h3{
+    color: rgb(34, 75, 82);
+}
+
+/* h1,h3{
+    color: rgb(34, 75, 82);
+} */
+
+
+/* id selector */
+
+#login{
+   background-color: white;
+   border-radius: 12px;
+    border: none;
+}
+
+#signup{
+    background-color: brown;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+
+/* class selector */
+
+.upvote{
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+.answer{
+    background-color: rgb(201, 34, 31);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+#Myid{
+    color: rgb(118, 26, 26);
+    font-weight: 900;
+}
+
+
+
+/* descendant selector */
+
+p a {
+    color: purple;
+    background-color: rgb(222, 227, 118);
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+}
+
+
+nav ul li{
+    color: hotpink;
+}
+
+nav ul li a{
+    color: rgb(117, 13, 65);
+    text-decoration: none;
+    font-weight: 900;
+
+/* sibling combinator */
+
+p+h3{
+    text-decoration: underline;
+}
+/* child selector */
+
+
+
+/* attribute selector */
+
+input[type="text"]{
+    color: brown;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+
+/* pseudo class */
+button:hover{
+    background-color: bisque;
+}
+
+
+/* pseudo element */
+
+p::first-letter{
+    color: rgb(84, 117, 34);
+    font-size: larger;
+}

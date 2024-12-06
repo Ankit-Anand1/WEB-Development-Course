@@ -1,0 +1,81 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(217, 235, 224);
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(202, 234, 221);
+}
+
+.card:hover{
+    background-color: beige;
+}
+
+@keyframes animateText{
+
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+h3{
+    border-radius: 10px;
+    width: 50%;
+    text-align:center;
+    background-color: rgb(238, 233, 227);
+}
+div p{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 239, 231);
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(221, 198, 242);
+}
+h2 i {
+    font-size: larger;
+    color: rgb(225, 123, 69);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 span{
+    color: rgb(191, 152, 52);
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    text-align: center;
+    font-size: larger;
+    color: rgb(185, 113, 18);
+    animation: animateText ease-in 2s 0s infinite none;
+}
+
+@media(max-width:350px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+
+            height: 400px;
+            width: 400px;
+            background-color: rgb(234, 168, 168);
+            border: 2px solid lightseagreen;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .box{
+
+            height: 100px;
+            width: 100px;
+            background-color: rgb(209, 246, 163);
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #navbar{
+            height: 50px;
+            width: 900px;
+            border: 2px solid rgb(173, 199, 198);
+            background-color: rgb(222, 233, 241);
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .option{
+            height: 50px;
+            width: 80px;
+            border-radius: 10px;
+            margin-left: 5px;
+            font-size: 20px;
+            line-height: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        input{
+            background-color: rgb(229, 238, 204);
+            height: 25px;
+            width: 200px;
+            border-radius: 15px;
+            border: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+        <div class="box">E</div>
+        <div class="box">F</div>
+        <div class="box">G</div>
+        <div class="box">H</div>
+        <div class="box">I</div>
+    </div>
+
+    <br>
+
+    <div id="navbar">
+        <div class="option">logo</div>
+        <div class="option">Home</div>
+        <div class="option">About</div>
+        <div class="option">Contact</div>
+        <input type="text" placeholder="Search">
+    </div>
+</body>
+</html>

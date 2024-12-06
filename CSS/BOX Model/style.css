@@ -1,0 +1,43 @@
+
+h1{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: chocolate;
+    color: rgb(34, 98, 9);
+    border-radius: 12px;
+    /* margin: 12px; */
+    margin: 0;
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    background-color: aqua ;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+
+    /* border shorthand */
+
+    border: 5px solid black;
+    border-left-color: blue;
+    border-right-color: brown;
+    border-top-color: rgb(25, 0, 255);
+    border-bottom-color: rgb(177, 49, 119);
+    border-top-style: dotted;
+    /* border-radius: 15px; */
+    border-top-right-radius: 20px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 15px;
+    border-left-color: blue;
+    border-right-color: brown;
+    border-top-color: rgb(25, 0, 255);
+    border-bottom-color: rgb(177, 49,
+
+}

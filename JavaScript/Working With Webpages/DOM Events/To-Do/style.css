@@ -1,0 +1,55 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(136, 131, 216);
+    background: linear-gradient(90deg, rgb(191, 128, 128) 0%, rgba(142, 103, 149, 0.672) 24%);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   filter: contrast(150%);
+}
+
+h1{
+    border-radius: 15px;
+    text-align: center;
+    background: rgb(136, 131, 216);
+    background: linear-gradient(90deg, rgb(191, 243, 183) 0%, rgba(226, 183, 82, 0.672) 24%);
+    filter: contrast(150%);
+    width: 900px;
+}
+
+input{
+    border-radius: 100px;
+    background: linear-gradient(90deg, rgb(163, 211, 156) 0%, rgba(169, 216, 212, 0.672) 24%);
+    border: 1px solid navajowhite;
+    height: 50px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    filter: contrast(150%);
+    background-color: rgb(80, 127, 127);
+}
+
+button{
+    border-radius: 100px;
+    background-color: rgb(228, 238, 165);
+   border: none;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: rgb(133, 114, 144);
+    filter: contrast(150%);
+}
+
+ul li{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    color: rgb(29, 15, 192);
+    list-style-type: square;
+    list-style-type: upper-roman;
+    font-size: 1.3rem
+}

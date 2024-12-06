@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .box{
+        height: 100px;
+        width: 300px;
+        background-color: rgb(24, 173, 143);
+        /* animation-name: widthAnimate;
+
+        animation-name: colorAnimate;
+
+        animation-name: fontAnimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: normal; */
+
+        animation: colAnimate 3s ease-in 0s infinite normal;
+    }
+
+    @keyframes colAnimate{
+        0%{
+            background-color: orange;
+        }
+    50%{
+        background-color: rgb(134, 167, 204);
+    }
+    100%{
+        background-color: green;
+    }
+    }
+
+    @keyframes widthAnimate{
+        from{
+            width: 10px;
+            background-color: green;
+            border-radius: 10px;
+            text-align: start;
+        }
+    to {
+        width: 400px;
+        background-color: red;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+
+    @keyframes fontAnimation {
+        from{
+            font-size: 20px;
+        }
+    to{
+            font-size: 50px;
+        }
+    }
+
+    @keyframes colorAnimate{
+        from{
+            background-color: green;
+        }
+    to{
+        background-color: orange;
+    }
+    }
+
+   </style>
+</head>
+<body>
+    <h1>Animations</h1>
+    <div class="box">BOX</div>
+</body>
+</html>

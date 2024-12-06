@@ -1,0 +1,16 @@
+
+h1{
+            color: green;
+            background-color: antiquewhite;
+        }
+
+        p{
+            color: orange;
+        }
+
+        button{
+            background-color: aquamarine;
+            color: blue;
+            border: none;
+            border-radius: 13px;
+        }
