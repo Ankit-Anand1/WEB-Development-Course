@@ -16,7 +16,7 @@ h1{
 .btn{
     height: 200px;
     width: 200px;
-    border-radius: 20%;
+     border-radius: 20%;
     border: 10px solid black;
     filter: contrast(150%);
     filter: saturate(4);
@@ -44,4 +44,12 @@ h1{
 
 .green{
     background-color: #63aac0;
+}
+
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(36, 119, 24);
 }
